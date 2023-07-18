@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev:system-client": "node ./scripts/createStaticServer.js",
-    "dev:expmple-server": "node ./scripts/createExpServer.js"
+    "dev:expmple-server": "node ./scripts/createExpServer.js",
+    "dev:website": "npm run -C website dev"
   },
   "keywords": [],
   "author": "",

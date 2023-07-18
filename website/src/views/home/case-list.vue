@@ -33,7 +33,7 @@ function startLoadSystem() {
   fetchYml("index.yml").then(async (res) => {
     const foldersData = await loadFolderData(res);
 
-    caseList.value = foldersData;
+    caseList.value = foldersData.flat();
 
     console.log("caseList", caseList);
   });
