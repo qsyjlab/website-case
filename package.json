@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:system-client": "node ./scripts/createStaticServer.js"
+    "dev:system-client": "node ./scripts/createStaticServer.js",
+    "dev:expmple-server": "node ./scripts/createExpServer.js"
   },
   "keywords": [],
   "author": "",
