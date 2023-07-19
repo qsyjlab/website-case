@@ -2,7 +2,7 @@
 
 import jsYaml from "js-yaml";
 
-export const baseUrl = "/website/";
+export const baseUrl = "/website/system";
 
 export function fetchYml(path) {
   return new Promise((resolve, reject) => {
