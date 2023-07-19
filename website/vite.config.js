@@ -8,6 +8,7 @@ import { postBuildPlugin } from "../build/plugins/postBuildPlugin";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), commonjs(), postBuildPlugin()],
+  base: '/dist/',
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
