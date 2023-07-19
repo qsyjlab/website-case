@@ -7,7 +7,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory('/dist'),
+  history: createWebHashHistory(import.meta.env.VITE_APP_BASE_URL),
   routes, 
 })
 
