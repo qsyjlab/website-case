@@ -6,7 +6,7 @@ export const baseUrl = "/website/system/";
 
 export function fetchYml(path) {
   return new Promise((resolve, reject) => {
-    fetch(baseUrl + path)
+    fetch(baseUrl + '/' +path)
       .then((response) => {
         return response.text();
       })
