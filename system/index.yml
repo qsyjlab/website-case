@@ -2,3 +2,6 @@
 # folder 为键值 /system/folders 为 root 路径
 - folder: /folders/t1.yml
 - folder: /folders/t2.yml
+- folder: /folders/t2.yml
+- folder: /folders/t2.yml
+- folder: /folders/t2.yml
